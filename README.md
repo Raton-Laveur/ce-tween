@@ -3,6 +3,11 @@
 
 ![License](https://img.shields.io/github/license/slagtand-org/ce-tween)
 
+# Example
+```gml
+image_alpha = ce_tween_quad_out(time, 255, 0, 60);
+```
+
 # Installation
 Using [Catalyst](https://github.com/GameMakerHub/Catalyst), the open-source package manager for GameMaker Studio 2:
 
