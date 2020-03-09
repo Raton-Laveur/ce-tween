@@ -1,0 +1,1 @@
+displayed_curve = (displayed_curve + 1) % ds_grid_width(curves);

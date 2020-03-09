@@ -1,0 +1,1 @@
+curve_timer = (curve_timer + 1) % 100;

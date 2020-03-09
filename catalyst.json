@@ -1,0 +1,10 @@
+{
+    "name": "slagtand-org/ce-tween",
+    "description": "Tweening library",
+    "license": "MIT",
+    "homepage": "https://github.com/slagtand-org/ce-tween",
+    "yyp": "ce-tween.yyp",
+    "ignore": {
+        "Demo": "group"
+    }
+}
