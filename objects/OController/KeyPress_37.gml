@@ -1,6 +1,6 @@
---displayed_curve;
+--displayedCurve;
 
-if (displayed_curve <= -1)
+if (displayedCurve <= -1)
 {
-	displayed_curve = ds_grid_width(curves) - 1;
+	displayedCurve = array_length_1d(curves) - 1;
 }
