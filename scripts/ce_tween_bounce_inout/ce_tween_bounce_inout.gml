@@ -5,8 +5,9 @@
 /// @param {real} final Target value.
 /// @param {real} duration Duration in frames/seconds/µs...
 gml_pragma("forceinline");
-if (argument0 < argument3 * 0.5)
+if (argument[0] < argument[3] * 0.5)
 {
-	return (((argument1 + argument2 - ce_tween_bounce_out(argument3 - (argument0 * 2), argument1, argument2, argument3)) * 0.5) + (argument1 * 0.5));
+	return (argument[1] + argument[2] - ce_tween_bounce_out(argument[3] - argument[0] * 2, argument[1], argument[2], argument[3])) * 0.5 + argument[1] * 0.5;
 }
-return ((ce_tween_bounce_out(argument0 * 2 - argument3, argument1, argument2, argument3) * 0.5) + (argument2 * 0.5));
+
+return ce_tween_bounce_out(argument[0] * 2 - argument[3], argument[1], argument[2], argument[3]) * 0.5 + argument[2] * 0.5;

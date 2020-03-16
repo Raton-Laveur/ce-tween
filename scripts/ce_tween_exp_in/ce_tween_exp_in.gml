@@ -5,5 +5,4 @@
 /// @param {real} final Target value.
 /// @param {real} duration Duration in frames/seconds/µs...
 gml_pragma("forceinline");
-argument2 -= argument1;
-return ((argument2 * power(2, 10 * ((argument0 / argument3) - 1))) + argument1);
+return argument[1] + argument[2] - ce_tween_exp_out(argument[3] - argument[0], argument[1], argument[2], argument[3]);
