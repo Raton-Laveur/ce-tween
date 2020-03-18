@@ -32,6 +32,6 @@ curves = [
 	ce_tween_bounce_inout,
 ];
 
-displayedCurve = 0;
+displayed_curve = 0;
 
-curveTimer = 0;
+curve_timer = 0;

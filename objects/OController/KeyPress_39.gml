@@ -1,1 +1,1 @@
-displayedCurve = (displayedCurve + 1) % array_length_1d(curves);
+displayed_curve = (displayed_curve + 1) % array_length_1d(curves);

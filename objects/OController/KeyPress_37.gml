@@ -1,6 +1,6 @@
---displayedCurve;
+--displayed_curve;
 
-if (displayedCurve <= -1)
+if (displayed_curve <= -1)
 {
-	displayedCurve = array_length_1d(curves) - 1;
+	displayed_curve = array_length_1d(curves) - 1;
 }
