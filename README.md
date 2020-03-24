@@ -1,5 +1,6 @@
 # CE Tween
 ![License](https://img.shields.io/github/license/slagtand-org/ce-tween)
+
 CE Tween is a tweening library for Gamemaker Studio 2. Using CE Tween, you can interpolate numbers towards a target through multiple equations that are included in the library. 
 
 > Do you want to know more about tweening?
