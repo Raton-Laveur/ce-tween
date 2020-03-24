@@ -8,7 +8,7 @@ An excellent reference is Robert Penner's chapter about it, which you can read f
 CE Tween needs 4 parameters to work : the desired equation, the origin (value), the destination (final), and the duration.
 
 ## What are the available equations? 
-They are listed in the demo included in the project code. *The Catalyst version of CE Tween does not include this demo*. 
+They are listed in the demo included in the [releases](https://github.com/slagtand-org/ce-tween/releases). *The Catalyst version of CE Tween does not include this demo*. 
 
 # Example
 ```gml
